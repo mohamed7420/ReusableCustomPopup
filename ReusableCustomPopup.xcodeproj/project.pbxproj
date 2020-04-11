@@ -13,6 +13,8 @@
 		BA7EF79C243FE3BF00EEAEF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA7EF79A243FE3BF00EEAEF2 /* Main.storyboard */; };
 		BA7EF79E243FE3C200EEAEF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA7EF79D243FE3C200EEAEF2 /* Assets.xcassets */; };
 		BA7EF7A1243FE3C200EEAEF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA7EF79F243FE3C200EEAEF2 /* LaunchScreen.storyboard */; };
+		BA81C7EF2442730D007757A7 /* PopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA81C7EE2442730D007757A7 /* PopupViewController.swift */; };
+		BA81C7F12442734C007757A7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA81C7F02442734C007757A7 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		BA7EF79D243FE3C200EEAEF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA7EF7A0243FE3C200EEAEF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA7EF7A2243FE3C200EEAEF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA81C7EE2442730D007757A7 /* PopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupViewController.swift; sourceTree = "<group>"; };
+		BA81C7F02442734C007757A7 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				BA7EF79D243FE3C200EEAEF2 /* Assets.xcassets */,
 				BA7EF79F243FE3C200EEAEF2 /* LaunchScreen.storyboard */,
 				BA7EF7A2243FE3C200EEAEF2 /* Info.plist */,
+				BA81C7EE2442730D007757A7 /* PopupViewController.swift */,
+				BA81C7F02442734C007757A7 /* Constants.swift */,
 			);
 			path = ReusableCustomPopup;
 			sourceTree = "<group>";
@@ -138,9 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA81C7F12442734C007757A7 /* Constants.swift in Sources */,
 				BA7EF799243FE3BF00EEAEF2 /* ViewController.swift in Sources */,
 				BA7EF795243FE3BF00EEAEF2 /* AppDelegate.swift in Sources */,
 				BA7EF797243FE3BF00EEAEF2 /* SceneDelegate.swift in Sources */,
+				BA81C7EF2442730D007757A7 /* PopupViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
